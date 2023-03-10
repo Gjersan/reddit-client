@@ -85,22 +85,15 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Gjersan`, `reddit-client`, `AndreasGjervo1`, `andreas-gjersvold-40159b249`, `email_client`, `andreas.gjersvold@gmail.com`, `Neat Reddit`, `Simple client for viewing posts on Reddit`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,7 +136,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -154,12 +147,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
+<!-- - [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/Gjersan/reddit-client/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Gjersan/reddit-client/issues) for a full list of proposed features (and known issues). -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +161,7 @@ See the [open issues](https://github.com/Gjersan/reddit-client/issues) for a ful
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+<!-- Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -179,7 +172,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -195,7 +188,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@AndreasGjervo1](https://twitter.com/AndreasGjervo1) - andreas.gjersvold@gmail.com@email_client.com
+Your Name - [@AndreasGjervo1](https://twitter.com/AndreasGjervo1) - andreas.gjersvold@gmail.com
 
 Project Link: [https://github.com/Gjersan/reddit-client](https://github.com/Gjersan/reddit-client)
 
@@ -206,9 +199,9 @@ Project Link: [https://github.com/Gjersan/reddit-client](https://github.com/Gjer
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
+<!-- * []()
 * []()
-* []()
-* []()
+* []() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,6 +224,7 @@ Project Link: [https://github.com/Gjersan/reddit-client](https://github.com/Gjer
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
+[Neat-reddit]: https://img.shields.io/badge/Neat%20Reddit-Simple%20Reddit%20Client!-red
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D

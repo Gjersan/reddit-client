@@ -10,11 +10,34 @@ import {
   faArrowUp,
   faComment,
 } from "@fortawesome/free-solid-svg-icons";
+import SkeletonLoader from "tiny-skeleton-loader-react";
 dayjs.extend(relativeTime);
 dayjs.extend(utc);
 
-export default function Card({ data }) {
-  const timeStamp = dayjs.unix(data.created).utc();
+export default function Card({ data, isLoading, isFetching, isSuccess }) {
+  if (isLoading || isFetching) {
+    return (
+      <div id="card">
+        <div className="card_sidebar">
+          <SkeletonLoader />
+          <SkeletonLoader />
+          <SkeletonLoader />
+        </div>
+        <div className="card_main">
+          <div className="card_header">
+            <SkeletonLoader />
+          </div>
+          <div className="card_img-container">
+            <SkeletonLoader height="5rem" />
+          </div>
+          <SkeletonLoader />
+          <SkeletonLoader />
+        </div>
+      </div>
+    );
+  }
+  const timeStamp = dayjs.unix(data?.created).utc();
+
   if (data) {
     return (
       <div id="card">

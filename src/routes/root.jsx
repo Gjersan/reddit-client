@@ -7,53 +7,59 @@ import { useState, useEffect } from "react";
 export default function Root() {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
+  const [toggleSearch, setToggleSearch] = useState(false);
   const { data, isError, isSuccess } = useGetSubredditsQuery();
-  const subreddit = useSelector((state) => state.subreddit.subreddit);
 
   function handleChange(e) {
     e.preventDefault();
     setSearchTerm(e.target.value);
   }
 
+  function handleClick() {
+    setToggleSearch(!toggleSearch);
+  }
+
   function handleSubmit() {
-    if (searchTerm.length > 0) {
+    if (toggleSearch) {
       return navigate(`search/${searchTerm}`);
     } else {
-      return navigate(`subreddit/${subreddit}`)
+      return navigate(`subreddit/${searchTerm}`);
     }
   }
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      console.log("redirect " + searchTerm);
-      handleSubmit();
-    }, 1500);
-    return () => {
-      clearTimeout(timer);
-    };
+    if (searchTerm.length > 2) {
+      const timer = setTimeout(() => {
+        handleSubmit();
+      }, 1500);
+      return () => {
+        clearTimeout(timer);
+      };
+    }
   }, [searchTerm]);
 
   return (
     <>
       <div id="sidebar">
-        <h1>Neat Reddit - {subreddit}</h1>
+        <h1></h1>
         <div>
-          <form id="search-form" role="search">
-            <input
-              onChange={(e) => handleChange(e)}
-              id="q"
-              value={searchTerm}
-              aria-label="Search"
-              placeholder="Search"
-              type="search"
-              name="q"
-            />
-            <div id="search-spinner" aria-hidden hidden={true} />
-            <div className="sr-only" aria-live="polite"></div>
-          </form>
-          <form method="get">
-            <button type="submit">New</button>
-          </form>
+          <input
+            onChange={(e) => handleChange(e)}
+            onSubmit={() => handleSubmit()}
+            id="q"
+            value={searchTerm}
+            aria-label="Search"
+            placeholder={
+              toggleSearch ? "Search for posts..." : "Search for sub..."
+            }
+            type="search"
+            name="q"
+          />
+          <div id="search-spinner" aria-hidden hidden={true} />
+          <div className="sr-only" aria-live="polite"></div>
+          <button onClick={() => handleClick()} type="button">
+            {toggleSearch ? "Posts" : "Subreddits"}
+          </button>
         </div>
         <nav>
           <ul>

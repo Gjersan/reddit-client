@@ -6,11 +6,9 @@ export const redditApi = createApi({
   endpoints: (builder) => ({
     getSubreddits: builder.query({
       query: () => "/subreddits.json",
-      transformResponse: (response) => response,
     }),
     getSubredditByName: builder.query({
       query: (name) => `/r/${name}.json`,
-      transformResponse: (response) => response,
     }),
     getSearchResultForPosts: builder.query({
       query: (searchTerm) => `/search.json?q=${searchTerm}`,
