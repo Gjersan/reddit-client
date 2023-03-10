@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Neat Reddit</h3>
 
   <p align="center">
-    project_description
+    Simple Reddit Client for viewing posts on Reddit
     <br />
     <a href="https://github.com/Gjersan/reddit-client"><strong>Explore the docs »</strong></a>
     <br />
@@ -85,7 +85,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Gjersan`, `reddit-client`, `AndreasGjervo1`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Gjersan`, `reddit-client`, `AndreasGjervo1`, `andreas-gjersvold-40159b249`, `email_client`, `andreas.gjersvold@gmail.com`, `Neat Reddit`, `Simple client for viewing posts on Reddit`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,7 +195,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@AndreasGjervo1](https://twitter.com/AndreasGjervo1) - email@email_client.com
+Your Name - [@AndreasGjervo1](https://twitter.com/AndreasGjervo1) - andreas.gjersvold@gmail.com@email_client.com
 
 Project Link: [https://github.com/Gjersan/reddit-client](https://github.com/Gjersan/reddit-client)
 
@@ -227,7 +227,7 @@ Project Link: [https://github.com/Gjersan/reddit-client](https://github.com/Gjer
 [license-shield]: https://img.shields.io/github/license/Gjersan/reddit-client.svg?style=for-the-badge
 [license-url]: https://github.com/Gjersan/reddit-client/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/andreas-gjersvold-40159b249
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
